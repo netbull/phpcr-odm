@@ -29,6 +29,8 @@ matrix:
       env: TRANSPORT=doctrine_dbal COVERAGE=true DEPENDENCIES="symfony/symfony:^4.0" PHPBENCH="yes"
     - php: 7.2
       env: TRANSPORT=jackrabbit COVERAGE=true DEPENDENCIES="symfony/symfony:^4.0" PHPBENCH="yes"
+    - php: 7.3
+      env: TRANSPORT=jackrabbit COVERAGE=true DEPENDENCIES="symfony/symfony:^5.0" PHPBENCH="yes"
     - php: 7.2
       env: TRANSPORT=doctrine_dbal STABILITY="dev"
     - php: 7.2
